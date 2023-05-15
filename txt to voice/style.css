@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: black;
+}
+
+.main_page {
+    width: 60%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.all_desc {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    justify-content: center;
+    height: 60px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.all_desc h3 {
+    color: white;
+}
+
+.main_page .all_desc select {
+    background-color: black;
+    outline: none;
+    color: white;
+}
+
+.main_page textarea {
+    width: 88%;
+    padding: 10px;
+    outline: none;
+    resize: none;
+    height: 70%;
+    background-color: inherit;
+    color: white;
+}
+
+.main_page button {
+    margin: 20px 0px;
+    width: 88%;
+    height: 30px;
+    cursor: pointer;
+    color: white;
+    border: 1px solid white;
+    background-color: inherit;
+}
